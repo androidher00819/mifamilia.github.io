@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Rockwell';
+}
+.header {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  background: #fdb960;
+  color: #fd6066;
+  font-size: 20px;
+  border: 2px solid #fd6066;
+}
+span {
+  color: maroon;
+}
+/*navbar*/
+.navbar  {
+    overflow: hidden;
+    background-color: #fd6066;
+  }
+  
+  .navbar a{
+    float: left;
+    display: block;
+    color: #fdb960;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover{
+    background: #a2a4a8;
+    color: wheat;
+    border: 2px solid #fdb960;
+  }
+
+  .container img {
+    width: 100%;
+    border: 5px solid #fd6066;
+  }
+/*slideshow auto*/
+
+
+ .slide {
+  border: 5px solid #fd6066;
+}
+
+/*footer*/
+footer {
+  background-color: #fdb960;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #fd6066;
+}
+
+.footer-social-media a {
+  margin-right: 10px;
+  text-decoration: none;
+  text-align: justify;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  
+  background: #a2a4a8;
+    color: wheat;
+    border: 2px solid #fdb960;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border: 1px solid #fd6066;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border: 1px solid #fd6066;
+}
+.fa-instagram {
+  background: #bb03b2;
+  color: white;
+  border: 1px solid #fd6066;
+}
+.footer-contact p {
+  margin: 5px 0;
+  color: #fd6066;
+}
+
+.footerp {
+  color: #fd6066;
+}

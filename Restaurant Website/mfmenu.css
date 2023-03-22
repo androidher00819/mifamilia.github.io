@@ -1,0 +1,144 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Rockwell';
+}
+.header {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  background: #fdb960;
+  color: #fd6066;
+  font-size: 20px;
+  border: 2px solid #fd6066;
+}
+span {
+  color: maroon;
+}
+/*navbar*/
+.navbar  {
+    overflow: hidden;
+    background-color: #fd6066;
+  }
+  
+  .navbar a{
+    float: left;
+    display: block;
+    color: #fdb960;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover{
+    background: #a2a4a8;
+    color: wheat;
+    border: 2px solid #fdb960;
+  }
+
+  .container img {
+    width: 100%;
+    border: 5px solid #fd6066;
+  }
+
+  /*Menu Content*/
+  #image {
+    border: 2px solid #fd6066;;
+  }
+
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .pagination a {
+    color: #fd6066;
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #fdb960;
+    color: #fd6066;
+    border-color: #fd6066;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #fdb960;
+  }
+  
+  .pagination .prev,
+  .pagination .next {
+    margin-right: 10px;
+  }
+  
+  .pagination .disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
+
+
+
+
+/*footer*/
+footer {
+  background-color: #fdb960;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #fd6066;
+}
+
+.footer-social-media a {
+  margin-right: 10px;
+  text-decoration: none;
+  text-align: justify;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  
+  background: #a2a4a8;
+    color: wheat;
+    border: 2px solid #fdb960;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border: 1px solid #fd6066;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border: 1px solid #fd6066;
+}
+.fa-instagram {
+  background: #bb03b2;
+  color: white;
+  border: 1px solid #fd6066;
+}
+.footer-contact p {
+  margin: 5px 0;
+  color: #fd6066;
+}
+
+.footerp {
+  color: #fd6066;
+}
+

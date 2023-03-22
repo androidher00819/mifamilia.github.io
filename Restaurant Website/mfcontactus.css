@@ -1,0 +1,235 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Rockwell';
+}
+.header {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  background: #fdb960;
+  color: #fd6066;
+  font-size: 20px;
+  border: 2px solid #fd6066;
+}
+span {
+  color: maroon;
+}
+/*navbar*/
+.navbar  {
+    overflow: hidden;
+    background-color: #fd6066;
+  }
+  
+  .navbar a{
+    float: left;
+    display: block;
+    color: #fdb960;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover{
+    background: #a2a4a8;
+    color: wheat;
+    border: 2px solid #fdb960;
+  }
+
+  .container img {
+    width: 100%;
+    border: 5px solid #fd6066;
+  }
+/* content contact us*/
+}
+.formbold-mb-5 {
+  margin-bottom: 20px;
+}
+.formbold-pt-3 {
+  padding-top: 12px;
+}
+.formbold-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+.formbold-form-wrapper {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+  background: white;
+}
+.formbold-form-label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fdb960;
+  margin-bottom: 12px;
+}
+.formbold-form-label-2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.formbold-form-input {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 1px solid #fd6066;
+  background:#fdb960;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fd6066;
+  outline: none;
+  resize: none;
+}
+.formbold-form-input:focus {
+  border-color: #fd6066;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #fd6066;
+  border-radius: 4px;
+  background-color: #fdb960;
+  font-size: 16px;
+  color: #a2a4a8;
+  margin: 1rem;
+  margin-left: 9rem;
+  position: static;
+}
+
+.formbold-btn {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 14px 32px;
+  border: none;
+  font-weight: 600;
+  background-color: #fd6066;
+  color: #fdb960;
+  width: 100%;
+  cursor: pointer;
+}
+.formbold-btn:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold--mx-3 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.formbold-px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.w-full {
+  width: 100%;
+}
+@media (min-width: 540px) {
+  .sm\:w-half {
+    width: 50%;
+  }
+}
+
+/*FAQs*/
+.accordion {
+  background-color: #fd6066;
+  color: #fdb960;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: 1px solid #fdb960;
+  font-size: 15px;
+  transition: 0.4s;
+  border-bottom: none;
+}
+
+h2{
+  color:#fdb960;
+  text-align: center;
+}
+.active, .accordion:hover {
+  background-color: maroon; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #fd6066;
+  overflow: hidden;
+}
+
+
+
+  /*footer*/
+  footer {
+    background-color: #fdb960;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #fd6066;
+  }
+  
+  .footer-social-media a {
+    margin-right: 10px;
+    text-decoration: none;
+    text-align: justify;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+    
+    background: #a2a4a8;
+      color: wheat;
+      border: 2px solid #fdb960;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border: 1px solid #fd6066;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border: 1px solid #fd6066;
+  }
+  .fa-instagram {
+    background: #bb03b2;
+    color: white;
+    border: 1px solid #fd6066;
+  }
+  .footer-contact p {
+    margin: 5px 0;
+    color: #fd6066;
+  }
+  
+  .footerp {
+    color: #fd6066;
+  }
+  
